@@ -5,7 +5,7 @@ namespace RefactoringWorkshop.Bloaters.Primitive
 {
     public class ProductService
     {
-        private List<Product> _cart = new List<Product>();
+        private readonly List<Product> _cart = new List<Product>();
 
         public bool AddProductToCart(Product product) {
             var productId = product.ProductId;

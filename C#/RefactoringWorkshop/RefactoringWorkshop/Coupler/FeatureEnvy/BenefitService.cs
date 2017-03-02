@@ -4,10 +4,10 @@ namespace RefactoringWorkshop.Coupler.FeatureEnvy
 {
     public class BenefitService
     {
-        private Employee _employee;
+        private readonly Employee _employee;
 
         public BenefitService(Employee employee) {
-            this._employee = employee;
+            _employee = employee;
         }
 
         public string EmployeeDetailsXml() {

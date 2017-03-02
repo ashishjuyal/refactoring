@@ -6,8 +6,8 @@ namespace Test.Coupler.FeatureEnvy
     [TestFixture]
     public class BenefitServiceTest
     {
-        BenefitService _benefitService;
-        Employee _employee;
+        private BenefitService _benefitService;
+        private Employee _employee;
         [SetUp]
         public void Initialize() {
             _employee = new Employee(30, 2, "Employee one");
