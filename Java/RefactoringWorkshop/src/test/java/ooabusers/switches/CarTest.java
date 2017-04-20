@@ -7,10 +7,10 @@ import static org.junit.Assert.*;
 
 public class CarTest {
 
-    Car sportsCar;
-    Car familyCar;
-    Car smallCar;
-    Car defaultCar;
+    ICar sportsCar;
+    ICar familyCar;
+    ICar smallCar;
+    ICar defaultCar;
     @Before public void
     setup() {
         sportsCar = new Car(Car.SPORTS);

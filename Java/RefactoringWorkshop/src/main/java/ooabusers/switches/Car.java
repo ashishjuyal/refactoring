@@ -1,6 +1,6 @@
 package ooabusers.switches;
 
-class Car {
+class Car implements ICar {
     public static final int SPORTS = 1;
     public static final int FAMILY = 2;
     public static final int SMALL = 3;
@@ -15,6 +15,7 @@ class Car {
         this.type = type;
     }
 
+    @Override
     public String fuelCapacity() {
         switch(type()) {
             case Car.SPORTS:
@@ -28,6 +29,7 @@ class Car {
         }
     }
 
+    @Override
     public String fuelAverage() {
         switch(type()) {
             case Car.SPORTS:
@@ -41,6 +43,7 @@ class Car {
         }
     }
 
+    @Override
     public String features() {
         switch(type()) {
             case Car.SPORTS:
