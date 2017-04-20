@@ -36,6 +36,7 @@
     <Compile Include="Bloaters\DataClumps\Customer.cs" />
     <Compile Include="Bloaters\Primitive\Product.cs" />
     <Compile Include="Bloaters\Primitive\ProductService.cs" />
+    <Compile Include="ChangePreventors\DivergentChange\Customer.cs" />
     <Compile Include="Coupler\FeatureEnvy\Benefit.cs" />
     <Compile Include="Coupler\FeatureEnvy\BenefitService.cs" />
     <Compile Include="Coupler\FeatureEnvy\Employee.cs" />
