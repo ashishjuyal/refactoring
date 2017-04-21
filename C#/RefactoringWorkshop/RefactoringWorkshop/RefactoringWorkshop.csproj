@@ -52,6 +52,8 @@
     <Compile Include="Dispensable\DataClasses\Address.cs" />
     <Compile Include="Dispensable\DataClasses\Customer.cs" />
     <Compile Include="Dispensable\DataClasses\CustomerSummaryView.cs" />
+    <Compile Include="OOAbusers\Switches\Car.cs" />
+    <Compile Include="OOAbusers\Switches\ICar.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

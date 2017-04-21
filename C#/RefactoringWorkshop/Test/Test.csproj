@@ -51,6 +51,7 @@
     <Compile Include="Coupler\MessageChain\ArticleWrapperConverterTest.cs" />
     <Compile Include="Dispensable\Comments\MatcherTest.cs" />
     <Compile Include="Dispensable\DataClasses\CustomerSummaryViewTest.cs" />
+    <Compile Include="OOAbusers\Switches\CarTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
